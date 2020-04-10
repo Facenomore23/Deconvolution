@@ -1,0 +1,28 @@
+# Don't track content of these folders
+
+preprocessing/Nov/
+preprocessing/Nov sim agn/
+preprocessing/Nov sim agn4/
+preprocessing/Nov sim ann/
+preprocessing/Nov sim arn/
+preprocessing/Nov sim agn4/
+nov1_sca/
+nov2_sca_agn4/
+Nov2_sca_ann/
+Nov2_sca_gnn/
+nov2_sca_pure/
+Nov2_sca_rnn/
+pbmc_sca/
+preprocessing/Nov*
+
+# ignore all data files
+
+*.txt
+*.h5ad
+processed.h5ad
+
+# ignore models too
+
+m1024/
+m512/
+m256/
